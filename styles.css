@@ -1,7 +1,8 @@
+
 @charset "UTF-8";
 
 @font-face {
-  font-family: "kira";
+  font-family: "FontKira";
   src:url("fonts/kira.eot");
   src:url("fonts/kira.eot?#iefix") format("embedded-opentype"),
     url("fonts/kira.woff") format("woff"),
@@ -11,9 +12,42 @@
   font-style: normal;
 
 }
+ .fkira {
+     display: inline-block;
+     font: normal normal normal 14px/1 FontKira;
+     font-size: inherit;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale 
+ }
+ 
+ .fkira-lg {
+     font-size: 1.33333333em;
+     line-height: .75em;
+     vertical-align: -15%
+ }
+ 
+ .fkira-2x {
+     font-size: 2em
+ }
+ 
+ .fkira-3x {
+     font-size: 3em
+ }
+ 
+ .fkira-4x {
+     font-size: 4em
+ }
+ 
+ .fkira-5x {
+     font-size: 5em
+ }
+
+/* Não Remover Styles Acima,adapte!*/
+
 
 [data-icon]:before {
-  font-family: "kira" !important;
+  font-family: "FontKira" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +61,7 @@
 
 [class^="fkira-"]:before,
 [class*=" fkira-"]:before {
-  font-family: "kira" !important;
+  font-family: "FontKira" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -37,6 +71,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 .fkira-brisanet:before {
   content: "\62";
