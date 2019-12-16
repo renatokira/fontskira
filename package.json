@@ -1,0 +1,23 @@
+{
+  "name": "fontskira",
+  "version": "1.0.0",
+  "description": "Custom Fonts Renato Kira",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatokira/fontskira.git"
+  },
+  "keywords": [
+    "fonts",
+    "kira"
+  ],
+  "author": "Renato Kira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatokira/fontskira/issues"
+  },
+  "homepage": "https://github.com/renatokira/fontskira#readme"
+}
