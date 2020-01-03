@@ -1,6 +1,7 @@
 # fontskira
 Custom Fonts Kira
 
+![Screenshot](font.png)
 
 Usage:
 ```
